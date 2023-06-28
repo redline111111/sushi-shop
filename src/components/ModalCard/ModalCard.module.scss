@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    background-color: rgb(255, 83, 83);
+    border-radius: 10px;
+}
+.wrapper:not(:first-child){
+    margin-top: 20px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: space-around;
+}
+
+.type{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.img{
+    border-radius: 10px 0px 0px 10px;
+    background-color: white
+}
+
+.price{
+    font-size: 20px;
+}

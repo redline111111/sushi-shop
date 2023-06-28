@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Филадельфия",
+      "price": 280,
+      "image": "/items/Philadelphia.png",
+      "type": "none",
+      "category": "roll",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "name": "Унаги темпура",
+      "price": 460,
+      "image": "/items/unagiTempura.png",
+      "type": "hot",
+      "category": "roll",
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "name": "Калифорния",
+      "price": 260,
+      "image": "/items/California.png",
+      "type": "none",
+      "category": "roll",
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "name": "Унаги филадельфия",
+      "price": 415,
+      "image": "/items/unagiPhill.png",
+      "type": "none",
+      "category": "roll",
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "name": "Нигири унаги",
+      "price": 145,
+      "image": "/items/nigiri-unagi.png",
+      "type": "none",
+      "category": "nigiri",
+      "favorite": true
+    },
+    {
+      "id": 6,
+      "name": "Нигири с лососем",
+      "price": 150,
+      "image": "/items/nigiri-salmon.png",
+      "type": "none",
+      "category": "nigiri",
+      "favorite": false
+    },
+    {
+      "id": 7,
+      "name": "Нигири магуро",
+      "price": 130,
+      "image": "/items/Nigiri-Maguro.png",
+      "type": "none",
+      "category": "nigiri",
+      "favorite": false
+    },
+    {
+      "id": 8,
+      "name": "Ручной ролл с лососем",
+      "price": 175,
+      "image": "/items/hand-salmon.png",
+      "type": "none",
+      "category": "handRoll",
+      "favorite": true
+    },
+    {
+      "id": 9,
+      "name": "Ручной ролл с крабом",
+      "price": 175,
+      "image": "/items/Hand-crab.png",
+      "type": "spicy",
+      "category": "handRoll",
+      "favorite": false
+    },
+    {
+      "id": 10,
+      "name": "Лава с лососем",
+      "price": 175,
+      "image": "/items/Lava.png",
+      "type": "spicy",
+      "category": "roll",
+      "favorite": true
+    },
+    {
+      "id": 11,
+      "name": "Онигири филадельфия",
+      "price": 180,
+      "image": "/items/onigiriPhila.png",
+      "type": "none",
+      "category": "onigiri",
+      "favorite": true
+    },
+    {
+      "id": 12,
+      "name": "Онигири калифорния",
+      "price": 180,
+      "image": "/items/onigiriCalif.png",
+      "type": "none",
+      "category": "onigiri",
+      "favorite": true
+    }
+  ]
+}

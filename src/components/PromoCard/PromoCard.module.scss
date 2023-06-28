@@ -1,0 +1,36 @@
+.wrapper{
+    background-color: rgb(255, 84, 84);
+    display: flex;
+    color: black;
+    border-radius: 10px;
+    gap: 20px;
+}
+.promo{
+    background-color: rgb(67, 111, 255);
+}
+.title{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.image{
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(222, 230, 255);
+}
+.promocode{
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2px 10px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: black;
+    &:hover{
+        color: white
+    }
+}

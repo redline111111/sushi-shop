@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap
+}
+.line{ 
+    content: " ";
+    background: #ff3333;
+    width: 100%;
+    height: 20px;
+}

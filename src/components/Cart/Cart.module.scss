@@ -1,0 +1,13 @@
+.cart_image{
+    width: 32px;
+    height: 32px;
+}
+
+.cart{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: orange;
+    font-size: 14px;
+}
