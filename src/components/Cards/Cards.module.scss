@@ -1,3 +1,7 @@
+$extraSmall: 300px;
+$small: 600px;
+$large: 1280px;
+
 .cards{
     width: 100%;
     display: grid;
@@ -12,4 +16,13 @@
     border-radius: 10px;
     background-color: rgb(255, 196, 189);
     z-index: 0;
+}
+
+@media screen and (max-width: $large) {
+    .cards{grid-template-columns: 1fr 1fr;}
+
+}
+
+@media screen and (max-width: $small) {
+    .cards{grid-template-columns: 1fr;}
 }

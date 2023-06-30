@@ -21,8 +21,11 @@ export const Banner = () => {
                 </Link>
             </div>
               <Image
-                width={800}
+                width="0"
+                height="0"
+                sizes="100vw"
                 alt='Sushi'
+                className={styles.img}
                 src={banner}
               />
         </div>

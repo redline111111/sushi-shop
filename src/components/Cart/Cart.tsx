@@ -41,7 +41,8 @@ export const Cart = () => {
             maxWidth: '1000px',
             margin: '0 auto',
             height:'600px',
-            borderRadius: '15px'
+            borderRadius: '15px',
+            zIndex: 100
             }
         }}>
             <ModalContent closeModal={closeModal}/>

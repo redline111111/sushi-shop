@@ -25,7 +25,14 @@ export const Card = ({id, name, price, image, type}: Item) => {
     
     return (
         <div className={styles.card} key={id}>
-        <Image alt={name} src={image} width={280} height={187}/>
+        <Image 
+            alt={name} 
+            src={image}                 
+            width="0"
+            height="0"
+            sizes="100vw"
+            className={styles.img}
+        />
         {renderType[type]}
         <div className={styles.description}>
             <div className={styles.text}>

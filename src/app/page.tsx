@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import { Header } from '@/components/Header/Header'
 import { Banner } from '@/components/Banner/Banner'
 import { Favorites } from '@/components/Favorites/Favorites'
 

@@ -13,7 +13,7 @@ export const PromoCard = ({title, description, image, promocode}: Props) => {
 
     return (
         <div className={`${styles.wrapper} ${promocode ? styles.promo : ''}`}>
-            <Image className={styles.image} src={image} alt={title} width={260} height={180}/>
+            <Image className={styles.image} src={image} alt={title} width={260} height={210}/>
             <div>
                 <div className={styles.title}>{title}</div>
                 <div className={styles.description}>{description}</div>

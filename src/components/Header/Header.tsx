@@ -15,7 +15,7 @@ export const Header = () => {
                     src={Logo} 
                     alt='logo'
                 />
-                <span>SUSHI.</span>
+                <span className={styles.title}>SUSHI.</span>
             </Link>
             <div className={styles.nav}>
                 <Link href={'/'}>ГЛАВНАЯ</Link>
