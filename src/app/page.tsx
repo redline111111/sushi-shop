@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main>
       <div className={styles.first_block}>
-        <Header/>
         <Banner/>
       </div>
       <Favorites/>

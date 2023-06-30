@@ -21,7 +21,7 @@ export const Header = () => {
                 <Link href={'/'}>ГЛАВНАЯ</Link>
                 <Link href={'/promotions'}>АКЦИИ</Link>
                 <Link href={'/menu'}>МЕНЮ</Link>
-                <Link href={'/'}>О НАС</Link>
+                <Link href={'/about'}>О НАС</Link>
             </div>
             <Cart/>
         </div>

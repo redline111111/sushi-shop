@@ -10,21 +10,36 @@ import styles from './ModalContent.module.scss'
 type Props = {
     closeModal: () => void,
 }
-  
+
+const promocodes = [
+    {
+        promocode: 'free',
+        discount: 15,
+    }
+] 
+
 export const ModalContent = ({closeModal}: Props) => {
     const [items, setItems] = useState<Item[]>([]);
     const [summary, setSummary] = useState(0);
     const ids = useAppSelector(selectIds);
+    const [discount, setDiscount] = useState(0);
+    const [promocode, setPromocode] = useState('');
 
     useEffect(() => {
         getAllByIds(ids).then(i => setItems(i))
         
     }, [ids])
-
+    
     useEffect(() => {
-       items.forEach(i => setSummary(prev => prev + i.price))
-        
-    }, [items])
+        let totalPrice = items.reduce((acc, i) => acc + i.price, 0)  
+        if(discount) setSummary(Math.floor(totalPrice * ((100 - discount)/100)))
+        else setSummary(totalPrice)
+    }, [items, discount])
+
+    const addPromocode = () => {
+        if(!discount) setDiscount(promocodes.find(promos => promos.promocode === promocode)?.discount || 0)
+
+    }
 
     return (
         <div className={styles.wrapper}>
@@ -43,8 +58,8 @@ export const ModalContent = ({closeModal}: Props) => {
                         Оплатить
                     </button>
                     <div className={styles.promo}>
-                        <button className={styles.enter}>Применить</button>
-                        <input className={styles.code} placeholder='ПРОМОКОД'/>
+                        <button className={styles.enter} onClick={addPromocode}>Применить</button>
+                        <input className={styles.code} placeholder='ПРОМОКОД' onChange={e => setPromocode(e.target.value)}/>
                     </div>
                 </div>
             </> : <div className={styles.emptyHeader}>

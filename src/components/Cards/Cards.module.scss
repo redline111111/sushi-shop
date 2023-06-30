@@ -6,3 +6,10 @@
     grid-column-gap: 40px;
 }
 
+.skeleton{
+    min-width: 20%;
+    min-height: 270px;
+    border-radius: 10px;
+    background-color: rgb(255, 196, 189);
+    z-index: 0;
+}

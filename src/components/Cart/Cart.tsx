@@ -26,7 +26,7 @@ export const Cart = () => {
     };
 
     return (
-    <div className={styles.cart} >
+    <div className={styles.cart}>
         <Image
             className={styles.cart_image}
             src={cart} 

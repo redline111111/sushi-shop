@@ -5,7 +5,7 @@ import { PromotionPage } from '@/components/PromotionPage/PromotionPage'
 export default function Menu() {
   return (
     <main>
-    <Header/>
+
     <PromotionPage/>
     </main>
   )
