@@ -6,7 +6,7 @@ import { Item } from '@/types/Item'
 import hotIcon from 'public/icons/hot.png'
 import spicyIcon from 'public/icons/spicy.png'
 import { useAppDispatch, useAppSelector } from '@/redux/hooks'
-import { selectIds, toggle } from '@/redux/features/cartSlice'
+import { toggle } from '@/redux/features/cartSlice'
 
 export const renderType = {
     'none': null,

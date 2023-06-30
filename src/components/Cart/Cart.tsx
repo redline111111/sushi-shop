@@ -35,6 +35,7 @@ export const Cart = () => {
         />
         <span>{count}</span>
         <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{
+            overlay: {zIndex: 1000},
             content: {
             background: 'rgb(42, 42, 42)',
             minWidth: '450px',
